@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.jcmb.portfolio.entities.Data;
 
 
-public interface Repository extends JpaRepository<Data, Long> {
+public interface DataRepository extends JpaRepository<Data, Long> {
 
 }
