@@ -29,4 +29,13 @@ public class Data {
 	
 	@Column(nullable = true)
 	private String linkedin;
+
+	@Override
+	public String toString() {
+		return "Data{" +
+				"id=" + id +
+				", phone='" + phone + '\'' +
+				", about_me=" + about_me +
+				'}';
+	}
 }
