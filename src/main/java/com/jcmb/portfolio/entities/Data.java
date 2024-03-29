@@ -1,9 +1,13 @@
 package com.jcmb.portfolio.entities;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
-@Table(name = "data")
+@Setter
+@Getter
+@Table(name = "data") /*no es necesario si tiene el mismo nombre*/
 public class Data {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
